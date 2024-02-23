@@ -25,4 +25,11 @@
 + WSGIサーバをASGIサーバに切り替えることで非同期対応する
 + Djangoフレームワークのどのレベルまで非同期に対応しているかは随時チェックが必要
 
-+ 
+## 便利プラグインライブラリ
++ django-allauth (メールベース認証, ソーシャル認証, パスワード再発行フロー)
++ Django REST Framework
++ django-table2 (ページネイション済み) : DJANGO_TABLE2_TEMPLATE
++ サーバ側からはJSON形式でページネイト対象の一覧を返して, クライアント側でページネイトすることがベストプラクティス
++ django-debug-toolbar (GUIデバッグツール)・・・SQLパネル
++ django-extentions (管理コマンドの拡張)
+
